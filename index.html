@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Antojos | Carritos de snacks para tus eventos</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf3e7;
+    color: #4a2a1f;
+  }
+
+  h1, h2, h3 {
+    font-family: "Brush Script MT", cursive;
+  }
+
+  a {
+    color: #4a2a1f;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 20px;
+    background-color: #ef8a8f;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Menú */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  /* Portada */
+  .portada {
+    background-color: #e9a6a0;
+    color: white;
+    padding: 90px 20px;
+  }
+
+  .portada h1 {
+    font-size: 90px;
+  }
+
+  .portada p {
+    margin: 15px 0 25px 0;
+    font-size: 20px;
+  }
+
+  .portada .boton {
+    background-color: #fdf3e7;
+    color: #4a2a1f;
+  }
+
+  /* Tres ideas */
+  .ideas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .idea {
+    width: 200px;
+  }
+
+  .circulo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    line-height: 70px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Paquetes */
+  h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+
+  .paquetes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .tarjeta {
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #e5d5c5;
+  }
+
+  .foto {
+    height: 160px;
+    line-height: 160px;
+    color: #4a2a1f;
+  }
+
+  .texto {
+    padding: 18px;
+  }
+
+  .tarjeta h3 {
+    font-size: 30px;
+  }
+
+  .tarjeta p {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+
+  /* Eventos */
+  .eventos {
+    background-color: #fbe3e1;
+  }
+
+  .lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .lista p {
+    background-color: white;
+    border: 2px solid #ef8a8f;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+
+  .nota {
+    margin-top: 25px;
+    font-size: 22px;
+    font-family: "Brush Script MT", cursive;
+  }
+
+  /* Contacto */
+  footer {
+    background-color: #4a2a1f;
+    color: #fdf3e7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  footer h2 {
+    margin-bottom: 10px;
+  }
+
+  footer p {
+    margin: 8px 0;
+  }
+
+  footer .boton {
+    background-color: #fdf3e7;
+    color: #4a2a1f;
+    margin: 15px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Antojos</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#paquetes">Paquetes</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <a class="boton" href="#contacto">¡Cotiza ahora!</a>
+</header>
+
+<section class="portada" id="inicio">
+  <p>Carritos de snacks para tus eventos</p>
+  <h1>Antojos</h1>
+  <p>Porque los mejores momentos también se disfrutan en forma de antojo.</p>
+  <a class="boton" href="#paquetes">Descubre nuestros paquetes</a>
+</section>
+
+<section>
+  <div class="ideas">
+    <div class="idea">
+      <div class="circulo" style="background-color:#ef8a8f">S</div>
+      <h3>Snacks</h3>
+      <p>Que todos aman</p>
+    </div>
+    <div class="idea">
+      <div class="circulo" style="background-color:#f6cd5b">E</div>
+      <h3>Eventos</h3>
+      <p>Que se vuelven especiales</p>
+    </div>
+    <div class="idea">
+      <div class="circulo" style="background-color:#8fb996">X</div>
+      <h3>Experiencias</h3>
+      <p>Que se recuerdan</p>
+    </div>
+  </div>
+</section>
+
+<section id="paquetes">
+  <h2>Nuestros paquetes</h2>
+  <p>Tres carritos, tres experiencias únicas</p>
+  <br>
+  <div class="paquetes">
+
+    <div class="tarjeta">
+      <div class="foto" style="background-color:#fbe7b0">Tu foto aquí</div>
+      <div class="texto">
+        <h3>Elotes y Tostitos</h3>
+        <p>Snacks salados</p>
+        <p>Elotes, esquites, Tostitos preparados y diferentes toppings, salsas y complementos.</p>
+        <a class="boton" style="background-color:#f6cd5b; color:#4a2a1f" href="#contacto">Ver más</a>
+      </div>
+    </div>
+
+    <div class="tarjeta">
+      <div class="foto" style="background-color:#d9ebdc">Tu foto aquí</div>
+      <div class="texto">
+        <h3>Aguachile y Ceviche</h3>
+        <p>Mariscos frescos</p>
+        <p>Ceviche y aguachile, acompañados de tostadas, pepino, cebolla y limón.</p>
+        <a class="boton" style="background-color:#8fb996" href="#contacto">Ver más</a>
+      </div>
+    </div>
+
+    <div class="tarjeta">
+      <div class="foto" style="background-color:#f9d5d3">Tu foto aquí</div>
+      <div class="texto">
+        <h3>Crepas y Fresas con Crema</h3>
+        <p>Postres deliciosos</p>
+        <p>Crepas dulces, fresas con crema, chocolate, galletas y toppings para elegir.</p>
+        <a class="boton" href="#contacto">Ver más</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="eventos" id="eventos">
+  <h2>Ideal para todo tipo de eventos</h2>
+  <div class="lista">
+    <p>Cumpleaños</p>
+    <p>XV años</p>
+    <p>Bodas</p>
+    <p>Graduaciones</p>
+    <p>Reuniones</p>
+    <p>y más...</p>
+  </div>
+  <p class="nota">¡Tú eliges el antojo, nosotros nos encargamos del resto!</p>
+</section>
+
+<footer id="contacto">
+  <h2>Contáctanos</h2>
+  <p>Solicita una cotización y haz de tu evento una experiencia inolvidable.</p>
+  <a class="boton" href="#">Cotizar ahora</a>
+  <p>WhatsApp
+    8117087225
+  </p>
+  <p>Ciudad de Monterrey</p>
+</footer>
+
+</body>
+</html>
