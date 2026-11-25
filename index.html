@@ -3,266 +3,82 @@
 <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Antojos | Carritos de snacks para tus eventos</title>
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #fdf3e7;
-    color: #4a2a1f;
-  }
-
-  h1, h2, h3 {
-    font-family: "arial", 'Arial Narrow';
-  }
-
-  a {
-    color: #4a2a1f;
-    text-decoration: none;
-  }
-
-  section {
-    padding: 50px 20px;
-    text-align: center;
-  }
-
-  .boton {
-    display: inline-block;
-    padding: 10px 22px;
-    border-radius: 20px;
-    background-color: #ef8a8f;
-    color: white;
-    font-weight: bold;
-  }
-
-  /* Menú */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 15px 30px;
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  nav a {
-    margin: 0 10px;
-  }
-
-  /* Portada */
-  .portada {
-    background-color: #e9a6a0;
-    color: white;
-    padding: 90px 20px;
-  }
-
-  .portada h1 {
-    font-size: 90px;
-  }
-
-  .portada p {
-    margin: 15px 0 25px 0;
-    font-size: 20px;
-  }
-
-  .portada .boton {
-    background-color: #fdf3e7;
-    color: #4a2a1f;
-  }
-
-  /* Tres ideas */
-  .ideas {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .idea {
-    width: 200px;
-  }
-
-  .circulo {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 0 auto 10px auto;
-    line-height: 70px;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-  }
-
-  /* Paquetes */
-  h2 {
-    font-size: 45px;
-    margin-bottom: 25px;
-  }
-
-  .paquetes {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .tarjeta {
-    width: 280px;
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 1px solid #e5d5c5;
-  }
-
-  .foto {
-    height: 160px;
-    line-height: 160px;
-    color: #4a2a1f;
-  }
-
-  .texto {
-    padding: 18px;
-  }
-
-  .tarjeta h3 {
-    font-size: 30px;
-  }
-
-  .tarjeta p {
-    margin: 10px 0;
-    font-size: 15px;
-  }
-
-  /* Eventos */
-  .eventos {
-    background-color: #fbe3e1;
-  }
-
-  .lista {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .lista p {
-    background-color: white;
-    border: 2px solid #ef8a8f;
-    border-radius: 20px;
-    padding: 10px 20px;
-  }
-
-  .nota {
-    margin-top: 25px;
-    font-size: 22px;
-    font-family: "arial", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  /* Contacto */
-  footer {
-    background-color: #4a2a1f;
-    color: #fdf3e7;
-    padding: 40px 20px;
-    text-align: center;
-  }
-
-  footer h2 {
-    margin-bottom: 10px;
-  }
-
-  footer p {
-    margin: 8px 0;
-  }
-
-  footer .boton {
-    background-color: #fdf3e7;
-    color: #4a2a1f;
-    margin: 15px 0;
-  }
-</style>
+     <title>Snacky-snacks</title>
+     <link rel="stylesheet" href="estilos.css">
+     <script src="java.js"></script>
+     <script src="https://kit.fontawesome.com/c9c7dd4fa4.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <header>
-  <h1>Antojos</h1>
+  <h1>Snicky</h1>
   <nav>
     <a href="#inicio">Inicio</a>
     <a href="#paquetes">Paquetes</a>
     <a href="#eventos">Eventos</a>
     <a href="#contacto">Contacto</a>
   </nav>
-  <a class="boton" href="#contacto">¡Cotiza ahora!</a>
+  <a class="boton" href="#contacto">Cotizar ahora</a>
 </header>
 
 <section class="portada" id="inicio">
-  <p>Carritos de snacks para tus eventos</p>
-  <h1>Antojos</h1>
-  <p>Porque los mejores momentos también se disfrutan en forma de antojo.</p>
-  <a class="boton" href="#paquetes">Descubre nuestros paquetes</a>
+  <div class="textoinicio">
+    <h1>SNICKY SNACK</h1>
+    <br>
+    <p>En Snicky Snack, nos especializamos en transformar cada evento en una experiencia única, deliciosa y llena de sabor. Nuestra propuesta es simple pero irresistible: un carrito de snacks que hará que tus
+invitados disfruten al máximo cada bocado. Un carrito versátil y lleno de estilo que se adapta a cualquier ocasión, con opciones para todos los gustos.</p>
+  </div>
+  <div>
+   <img src="imggg/snc.png" alt="snacky">
+  </div>
+  
 </section>
 
-<section>
-  <div class="ideas">
-    <div class="idea">
-      <div class="circulo" style="background-color:#ef8a8f">S</div>
-      <h3>Snacks</h3>
-      <p>Que todos aman</p>
-    </div>
-    <div class="idea">
-      <div class="circulo" style="background-color:#f6cd5b">E</div>
-      <h3>Eventos</h3>
-      <p>Que se vuelven especiales</p>
-    </div>
-    <div class="idea">
-      <div class="circulo" style="background-color:#8fb996">X</div>
-      <h3>Experiencias</h3>
-      <p>Que se recuerdan</p>
-    </div>
-  </div>
-</section>
+  
+
+
+   <a class="boton" href="#paquetes">Descubre nuestros paquetes</a> 
+
 
 <section id="paquetes">
   <h2>Nuestros paquetes</h2>
-  <p>Tres carritos, tres experiencias únicas</p>
   <br>
   <div class="paquetes">
 
     <div class="tarjeta">
-    
-      <div class="texto">
-        <h3>Elotes y Tostitos</h3>
-        <p>Snacks salados</p>
-        <p>Elotes, esquites, Tostitos preparados y diferentes toppings, salsas y complementos.</p>
+        <img src="imggg/fresas.jpg" alt="fresas">
+        <div class="contenido">
+           <h2>CARRITO DE FRESAS CON CREMA</h2>
+          <p>Ricas fresas con crema con una variedad de deliciosos toppings</p>
         <a class="boton" style="background-color:#f6cd5b; color:#4a2a1f" href="#contacto">Ver más</a>
-      </div>
+        </div>
     </div>
 
     <div class="tarjeta">
-      
-      <div class="texto">
-        <h3>Aguachile y Ceviche</h3>
-        <p>Mariscos frescos</p>
-        <p>Ceviche y aguachile, acompañados de tostadas, pepino, cebolla y limón.</p>
-        <a class="boton" style="background-color:#8fb996" href="#contacto">Ver más</a>
-      </div>
+        <img src="imggg/crepas.jpg" alt="fresas">
+        <div class="contenido">
+           <h2>CARRITO DE CREPAS </h2>
+          <p>Grandes crepas con variedad de ricos toppings</p>
+        <a class="boton" style="background-color:#f6cd5b; color:#4a2a1f" href="#contacto">Ver más</a>
+        </div>
     </div>
 
     <div class="tarjeta">
-      
-      <div class="texto">
-        <h3>Crepas y Fresas con Crema</h3>
-        <p>Postres deliciosos</p>
-        <p>Crepas dulces, fresas con crema, chocolate, galletas y toppings para elegir.</p>
-        <a class="boton" href="#contacto">Ver más</a>
-      </div>
+        <img src="imggg/gomitas.jpeg" alt="fresas">
+        <div class="contenido">
+           <h2>CARRITO DE GOMITAS</h2>
+          <p>Rica variedad de gomitas con diferentes coberturas</p>
+        <a class="boton" style="background-color:#f6cd5b; color:#4a2a1f" href="#contacto">Ver más</a>
+        </div>
+    </div>
+
+    <div class="tarjeta">
+        <img src="imggg/elotes.jpeg" alt="fresas">
+        <div class="contenido">
+           <h2>CARRITO DE ELOTES Y TOSTITOS</h2>
+          <p>Elote en vaso y tostitos con elote con variedad de toppings</p>
+        <a class="boton" style="background-color:#f6cd5b; color:#4a2a1f" href="#contacto">Ver más</a>
+        </div>
     </div>
 
   </div>
@@ -279,16 +95,56 @@
     <p>y más...</p>
   </div>
   <p class="nota">¡Tú eliges el antojo, nosotros nos encargamos del resto!</p>
+
+</section>
+<section class="cotizador">
+
+    <h2>CALCULA TU COTIZACIÓN</h2>
+
+    <p>¿Cuántas personas asistirán a tu evento?</p>
+
+    <select id="personas">
+        <option value="0">Selecciona una cantidad</option>
+        <option value="3999">100 personas</option>
+        <option value="6990">150 personas</option>
+        <option value="8990">200 personas</option>
+    </select>
+
+    <div class="resultado">
+    <h3 id="resultado">Tu precio aparecerá aquí</h3>
+    </div>
+
 </section>
 
-<footer id="contacto">
-  <h2>Contáctanos</h2>
-  <p>Solicita una cotización y haz de tu evento una experiencia inolvidable.</p>
-  <a class="boton" href="#">Cotizar ahora</a>
-  <p>WhatsApp
-    8117087225
-  </p>
+
+  
+    <section class="redes-sociales">
+    <h2>SÍGUENOS EN NUESTRAS REDES</h2>
+
+    <div class="iconos-redes">
+    <a href="https://www.instagram.com/snackly_pe/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com/snackly_pe" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@snackly_pe" target="_blank">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+
+    <a href="https://wa.me/528148830135" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    </div>
+</section>
+
   <p>Ciudad de Monterrey</p>
+
+ 
+<footer class="footer">
+  <p>Snacky Snacks 2026.  Italy Gonzalez </p>
 </footer>
 
 </body>
